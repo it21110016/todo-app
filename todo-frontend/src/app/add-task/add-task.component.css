@@ -1,0 +1,51 @@
+/* Style the container */
+div {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Style the title */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the form */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style labels */
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style input fields */
+  input[type="text"],
+  textarea {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style submit button */
+  button[type="submit"] {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0097a7;
+  }
+  
