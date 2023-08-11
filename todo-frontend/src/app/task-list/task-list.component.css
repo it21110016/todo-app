@@ -1,59 +1,59 @@
 /* Style the container */
 div {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  
-  /* Style the title */
-  h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  /* Style the task list */
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  /* Style individual tasks */
-  li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #ffffff;
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-    transition: background-color 0.2s ease;
-  }
-  
-  /* Style completed tasks */
-  li.completed {
-    background-color: #e0e0e0;
-    text-decoration: line-through;
-  }
-  
-  /* Style checkbox */
-  input[type="checkbox"] {
-    margin-right: 10px;
-  }
-  
-  /* Style remove button */
-  button {
-    background-color: #ff5252;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #e04040;
-  }
-  
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Style the title */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the task list */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Style table header */
+thead th {
+  text-align: left;
+  padding: 10px;
+}
+
+/* Style individual tasks */
+tbody tr {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  transition: background-color 0.2s ease;
+}
+
+/* Style completed tasks */
+.completed {
+  background-color: #e0e0e0;
+  text-decoration: line-through;
+}
+
+/* Style checkbox */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Style remove button */
+button {
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e04040;
+}
