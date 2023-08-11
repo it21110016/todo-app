@@ -43,7 +43,7 @@ export class TaskListComponent implements OnInit {
   // Add a new task
   addTask(task: any): void {
     this.taskService.addTask(task).subscribe(() => {
-      this.ngOnInit()// Refresh the task list after adding a task
+      this.loadTasks(); // Refresh the task list after adding a task
     });
   }
 }
